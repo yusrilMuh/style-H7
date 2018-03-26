@@ -114,3 +114,7 @@ div.navbar input[type="submit"] {
 ul#page-navigation {
 	display: none;
 }
+
+div.side {
+	display:none;
+}
