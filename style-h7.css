@@ -93,7 +93,7 @@ li.section div.content div.mod-indent {
 }
 
 li.section div.content div.mod-indent:last-child {
-	margin-bottom: 10px !important;
+	padding-bottom: 30px !important;
 }
 
 div.navbar {
