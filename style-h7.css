@@ -1,0 +1,116 @@
+body {
+	background-color: #ccc;
+	height: 100%;
+}
+
+span#main-content {
+	display:none;
+}
+
+div.header {
+	background-color: black;
+	border-radius:20px 20px 0 0;
+}
+
+.block .header h2 {
+	color: #bbb;
+}
+
+div.block {
+	background-image: none;
+	border-top-width: 0;
+}
+
+div.content {
+	background-color: #2f2f2f;
+	color: white;
+	border-radius: 0 0 20px 20px;
+}
+
+.block div.content a {
+	color: #eee;
+}
+
+.block div.content a:visited {
+	color: #ccc;
+}
+
+div.content .tree_item span {
+	color: #eee;
+}
+
+li.depth_3 {
+	background-color: #4e4e4e;
+	padding: 2px 5px !important;
+	padding-right: 10px !important;
+}
+
+li.depth_3:first-child {
+	border-radius: 10px 10px 0 0;
+}
+
+li.depth_3:last-child {
+	margin-bottom: 5px;
+	border-radius: 0 0 10px 10px;
+}
+
+li.depth_4 {
+	background-color: grey;
+	padding: 2px 5px !important;
+	margin-left: 5px;
+}
+
+li.depth_4:first-child {
+	border-radius: 5px 5px 0 0;
+}
+
+li.depth_4:last-child {
+	margin-bottom: 8px;
+	border-radius: 0 0 5px 5px;
+}
+
+h2.headingblock {
+	display :none;
+}
+
+.path-course-view .course-content li.section .main {
+	background-color: white;
+}
+
+.course-content ul.weeks li.section {
+	background-color: white;
+	margin: 0 0 30px 0;
+	border-radius: 20px;
+	border-width: 0 0 5px 0 !important;
+	border-color: #bbb !important;
+	overflow:hidden;
+}
+.course-content ul.weeks li.section .content {
+	margin: 0;	
+}
+
+li.section div.content div.mod-indent {
+	padding: 10px 20px;
+}
+
+div.navbar {
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1em;
+}
+
+div.navbar input[type="submit"] {
+	background-color: tomato;
+	border-color: maroon;
+	border-style: solid;
+	border-width: 0 0 2px 0;
+	border-radius: 10px;
+	padding: 10px 20px;
+	font-weight: bold;
+	color: white;
+}
+
+ul#page-navigation {
+	display: none;
+}
