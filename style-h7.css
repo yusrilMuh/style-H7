@@ -127,3 +127,11 @@ div.side {
 .course-content ul.weeks li.section div.content {
 	padding: 0 !important;
 }
+
+.path-course-view .section .content .weekdates {
+    color: #c5c5c5;
+    text-align: center;
+    padding: 5px;
+    background-color: #2f2f2f;
+    margin-bottom: 0;
+}
