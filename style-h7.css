@@ -89,10 +89,10 @@ h2.headingblock {
 }
 
 div.mod-indent {
-	padding: 5px 15px;
+	padding: 5px 30px;
 }
 
-div.mod-indent:last-child {
+ul.section {
 	padding-bottom: 30px !important;
 }
 
