@@ -89,7 +89,11 @@ h2.headingblock {
 }
 
 li.section div.content div.mod-indent {
-	padding: 10px 20px;
+	padding: 5px 20px;
+}
+
+li.section div.content div.mod-indent:last-child {
+	margin-bottom: 10px !important;
 }
 
 div.navbar {
