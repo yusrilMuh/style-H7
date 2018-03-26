@@ -135,3 +135,6 @@ div.side {
     background-color: #2f2f2f;
     margin-bottom: 0;
 }
+.section .content .no-overflow {
+	overflow: hidden;
+}
