@@ -109,6 +109,11 @@ div.navbar input[type="submit"] {
 	padding: 10px 20px;
 	font-weight: bold;
 	color: white;
+	cursor: pointer;
+}
+
+div.navbar input[type="submit"]:hover {
+	background-color: maroon;
 }
 
 ul#page-navigation {
