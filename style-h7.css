@@ -191,3 +191,7 @@ div.mod-indent {
     margin-right: 30px;
     border-bottom: 1px solid #bbb;
 }
+
+div.overflow {
+	margin-bottom : 20px !important;
+}
