@@ -167,8 +167,8 @@ div.side {
 
 li.modtype_url img {
 	padding-left: 32px;
-   	width: 32px;
-    	height: 32px;
+   	width: 32px !important;
+    	height: 32px !important;
     	box-sizing: border-box;
     	background: url(https://cdn.rawgit.com/yusrilMuh/style-H7/2bb5e233/png/001-apple.png);
     	transform: translateY(-15%);
