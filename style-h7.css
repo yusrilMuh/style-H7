@@ -27,7 +27,6 @@ div.block {
 div.region-content {
 	border-radius : 20px;
 	overflow : hidden;
-	padding-top : 0;
 	margin-top : 10px;
 }
 
@@ -158,6 +157,10 @@ div.side {
 	padding : 0 30px !important;
 }
 
-div.content span.skip-block-to {
+.skip-block-to {
 	display : none;
+}
+
+#page-content #region-main-box .region-content {
+	padding : 0;
 }
