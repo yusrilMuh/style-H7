@@ -170,7 +170,7 @@ li.modtype_url img {
    	width: 32px !important;
     	height: 32px !important;
     	box-sizing: border-box;
-    	background: url(https://cdn.rawgit.com/yusrilMuh/style-H7/2bb5e233/png/001-apple.png);
+    	background: url(https://cdn.rawgit.com/yusrilMuh/style-H7/2bb5e233/png/001-apple.png) no-repeat;
     	transform: translateY(-15%);
     	margin-right: 10px;
 }
