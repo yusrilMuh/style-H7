@@ -7,9 +7,11 @@ span#main-content {
 	display:none;
 }
 
-div.header {
+div.block div.header {
 	background-color: black;
-	border-style : none;
+	border-color: none;
+   	border-width: 0;
+	border-style: none;
 }
 
 .block .header h2 {
@@ -25,11 +27,15 @@ div.block {
 div.region-content {
 	border-radius : 20px;
 	overflow : hidden;
+	padding-top : 0;
+	margin-top : 10px;
 }
 
-div.content {
+div.block div.content {
 	background-color: #2f2f2f;
-	border-style : none;
+	border-color: none;
+   	border-width: 0;
+	border-style: none;
 }
 
 .block div.content a {
