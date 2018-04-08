@@ -25,9 +25,9 @@ div.block {
 }
 
 div.region-content {
-	border-radius : 20px;
+	border-radius : 0;
 	overflow : hidden;
-	margin-top : 10px;
+	margin-top : 0;
 }
 
 div.block div.content {
@@ -119,8 +119,8 @@ div.navbar input[type="submit"] {
 	border-color: maroon;
 	border-style: solid;
 	border-width: 0 0 2px 0;
-	border-radius: 10px;
-	padding: 10px 20px;
+	border-radius: 5pc;
+	padding: 5px 20px;
 	font-weight: bold;
 	color: white;
 	cursor: pointer;
@@ -195,3 +195,50 @@ div.mod-indent {
 div.overflow {
 	margin-bottom : 20px !important;
 }
+
+#page-content #region-post-box {
+	padding-top : 0;
+}
+
+#page-content-wrapper {
+	margin : 0;
+}
+
+#page-content #region-pre {
+	width : 18vw;
+}
+
+.side-pre-only #page-content #region-main {
+	margin-left: 18vw;
+}
+
+#page-content #region-main {
+	padding : 4% 5%;
+}
+
+.side-pre-only #page-content #region-main-box #region-post-box #region-main-wrap #region-main {
+	padding-right : 5%;
+}
+
+#page-header {
+	background: none;
+	background: black;
+	height : 70px;
+}
+
+div.navbar {
+	height: 30px;
+}
+
+#page-content #region-main-box .region-content {
+    height: calc(100vh - 120px);
+    overflow-y: scroll;
+}
+
+.sticky {
+	position : fixed;
+	top : 0;
+	left : 0;
+	height : 100vh;
+}
+
