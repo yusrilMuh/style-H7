@@ -231,6 +231,7 @@ div.navbar {
 }
 
 #page-content #region-pre .region-content {
+	height : calc(100vh - 120px);
     overflow-y: scroll;
 }
 
@@ -238,7 +239,7 @@ div.navbar {
 	position : fixed;
 	top : 0;
 	left : 0;
-	height : 100vh;
+	height : 100vh !important;
 	width : 18vw;
 }
 
