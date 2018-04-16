@@ -248,7 +248,7 @@ div.navbar {
     height: inherit;
 }
 
-#page-header .headermain {
+#page-header #page-header-wrapper .headermain {
     margin: 0;
     font-size: 2em;
     font-family: Montserrat;
@@ -257,7 +257,7 @@ div.navbar {
     transform: translateY(-50%);
 }
 
-.logininfo a {
+#page-header div.logininfo a {
     color: white;
     font-family: "Open Sans";
     font-weight: 500;
@@ -267,7 +267,7 @@ div.navbar {
     border-radius: 20px;
 }
 
-.headermenu {
+#page-header .headermenu {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
