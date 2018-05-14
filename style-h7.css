@@ -1,5 +1,5 @@
 html {
-	background-color: #ddd;
+	background-color: #eee;
 	height: 100%;
 }
 
@@ -8,14 +8,15 @@ span#main-content {
 }
 
 div.block div.header {
-	background-color: black;
+	background-color: #0f2126;
 	border-color: none;
    	border-width: 0;
 	border-style: none;
+	padding-bottom : 5px;
 }
 
 .block .header h2 {
-	color: #bbb;
+	color: #0069b4;
 }
 
 div.block {
@@ -31,7 +32,7 @@ div.region-content {
 }
 
 div.block div.content {
-	background-color: #2f2f2f;
+	background-color: #0f2126;
 	border-color: none;
    	border-width: 0;
 	border-style: none;
@@ -222,12 +223,13 @@ div.overflow {
 
 #page-header {
 	background: none;
-	background: black;
+	background: #0f2126;
 	height : 70px;
 }
 
 div.navbar {
 	height: 30px;
+	background-color :#0069b4;
 }
 
 #page-content #region-pre .region-content {
@@ -262,7 +264,7 @@ div.navbar {
     font-family: "Open Sans";
     font-weight: 500;
     padding: 10px 18px;
-    background-color: tomato;
+    background-color: #e73145;
     margin: 0 5px;
     border-radius: 20px;
 }
@@ -273,3 +275,31 @@ div.navbar {
     transform: translateY(-50%);
     margin: 0;
 }
+
+input#searchform_search {
+    border: none;
+    width: 80%;
+    box-sizing: border-box;
+    height: 1.5em;
+    border-radius: 5px 0 0 5px;
+    margin: 10px 0 10px 0;
+}
+
+button#searchform_button {
+    box-sizing: border-box;
+    border: none;
+    height: 1.5em;
+    font-family: Montserrat;
+    border-radius: 0 5px 5px 0;
+}
+
+div.block div.header:first-child {
+    padding-top: 15px;
+}
+
+.navbar .breadcrumb {
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.navbar .breadcrumb a {color: white;}
