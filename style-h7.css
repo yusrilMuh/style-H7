@@ -303,3 +303,7 @@ div.block div.header:first-child {
 }
 
 .navbar .breadcrumb a {color: white;}
+
+#page-header div.logininfo a:first-child {
+	background-color : #f39200;
+}
